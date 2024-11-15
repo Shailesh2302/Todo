@@ -1,6 +1,7 @@
 import "./App.css";
 import { useState } from "react";
 import { TodoProvider } from "./contexts";
+import React from "react";
 
 function App() {
   const [todos, setTodos] = useState([]);
@@ -10,7 +11,7 @@ setTodos((prev) => [{id:Date.now(), ...todo},...prev])
   }
 
   const updatedTodo = (id,todo) => {
-    
+
 
   }
   return (
