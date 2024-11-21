@@ -24,7 +24,11 @@ export default function App() {
     //console.log(id);
     setTodos((prev) =>
       prev.map((prevTodo) =>
+<<<<<<< HEAD
         prevTodo.id === id
+=======
+        prevTodo === id
+>>>>>>> 3aec04d102f409b48bc090b62dde68d8291a3984
           ? { ...prevTodo, completed: !prevTodo.completed }
           : prevTodo
       )
